@@ -1,3 +1,4 @@
+import 'package:app_flutter_myheros/heros_page.dart';
 import 'package:flutter/material.dart';
 import 'package:app_flutter_myheros/customicon.dart';
 
@@ -119,7 +120,9 @@ class HomeScreeTopPart extends StatelessWidget {
                 children: <Widget>[
                   FloatingActionButton(
                     backgroundColor: Colors.white,
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => HerosPage()));
+                    },
                     child: Icon(
                       Icons.add,
                       color: Color(0xFFE52020),
