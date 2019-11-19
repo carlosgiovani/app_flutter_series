@@ -52,7 +52,7 @@ class _CardMovieState extends State<CardMovie> {
                       Text(biography),
                       Text(biography2),
                       Divider(height: 20.0,),
-                      Image.network(image, height: 3git00.0,),
+                      Image.network(image, height: 300.0,),
                     ],
                   ),
                 );
