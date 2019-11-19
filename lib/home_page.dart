@@ -1,4 +1,3 @@
-import 'package:app_flutter_myheros/widget/card_movie.dart';
 import 'package:flutter/material.dart';
 import 'package:app_flutter_myheros/customicon.dart';
 
@@ -120,9 +119,7 @@ class HomeScreeTopPart extends StatelessWidget {
                 children: <Widget>[
                   FloatingActionButton(
                     backgroundColor: Colors.white,
-                    onPressed: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => CardMovie()));
-                    },
+                    onPressed: () {},
                     child: Icon(
                       Icons.add,
                       color: Color(0xFFE52020),
